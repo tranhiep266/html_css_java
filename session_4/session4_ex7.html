@@ -6,23 +6,22 @@
     <title>Session4_ex7</title>
 </head>
 <body>
-    <h1><b>Tìm Kiếm Sản Phẩm</b></h1>
-    <form action="https://tranhiep.com/" method="post">
-        <div>
-            <label for="search">Từ khóa tìm kiếm: </label>
-            <input 
-            type="text"
-            name="search"
-            >
-        </div>
-        <div>
-            Loại sản phẩm:
-            <select name="product" >
-                <option value="Điện tử">Điện tử</option>
-                <option value="Điện lạnh">Điện lạnh</option>
-            </select>
-        </div>
-        <input type="submit" value="Tìm kiếm"/>
+    <h1>Product search</h1>
+    <form action="http:www.mysever.com" method="post">
+        <label for="Search keyword">Search keyword</label> <br/>
+        <input type="text" name="search keyword" id="search keyword"> <br/>
+        <label for="Product Type">Product Type</label> <br/>
+        <select name="Product Type" id="Product Type">
+            <option value=""></option>
+            <option value="Kitchen appliances">Kitchen appliances</option>
+            <option value="Home appliances">Home appliances</option>
+            <option value="Bathroom accessories">Bathroom accessories</option>
+            <option value="Bedroom accessories">Bedroom accessories</option>
+            <option value="Living room accessories">Living room accessories</option>
+            <option value="Household cleaning tools">Household cleaning tools</option>
+            <option value="Storage and organization equipment">Storage and organization equipment</option> <br/>
+        </select> <br/>
+        <button type="submit">Search</button>
     </form>
 </body>
 </html>
