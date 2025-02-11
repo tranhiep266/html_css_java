@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  p > code{
+    color: rgb(219, 74, 98);
+    background-color: rgb(194, 194, 194);
+    font-size: large;
+  }
+  .center{
+    text-align: center;
+    border: 2px solid green;
+    padding: 15px;
+  }
+  
+  .example{
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .code{
+    background-color: white;
+    font-size: x-large;
+    padding: 10px;
+    border-left: 4px solid rgb(1, 206, 1);
+    font-family: monospace;
+  }
+  .button{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(20, 121, 20);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
