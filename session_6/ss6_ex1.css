@@ -1,0 +1,36 @@
+.header{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.under{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+.under a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.avatar {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    width:1360px;
+    height: 200px;
+}
+
+.footer{
+    background-color: rgb(188, 188, 188);
+    padding: 20px;
+    text-align: center;
+}

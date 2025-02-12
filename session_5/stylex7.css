@@ -1,0 +1,30 @@
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.button{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.view{
+    background-color: green;
+    color: white;
+}
+
+.update{
+    background-color: yellow;
+}
+
+.delete{
+    background-color: red;
+    color: white;
+}
