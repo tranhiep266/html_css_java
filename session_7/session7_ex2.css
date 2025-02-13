@@ -1,0 +1,16 @@
+.component{
+    border: 1px solid #a1a1a2;
+    padding: 150px;
+    margin: 100px;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.component h2{
+    color: red;
+}
+
+.component h4{
+    color: blue;
+}
