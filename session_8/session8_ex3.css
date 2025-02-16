@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 50px;
+    margin: 0;
+}
+
+.cards-section {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #333;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #e74c3c;
+    margin: 5px auto 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: left;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.button:hover {
+    background-color: #e74c3c;
+    color: white;
+}
