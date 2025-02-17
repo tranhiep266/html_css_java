@@ -1,0 +1,23 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.row{
+    display: flex;
+}
+.row .number{
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 5px;
+    background-color: #2ecc71;
+    color:white;
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    flex-basis: 100px;
+    border-radius: 5px;
+}
