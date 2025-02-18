@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+}
+.container{
+    max-width: 400px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+.card{
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+}
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card h2{
+    color: #333;
+    margin: 10px 0;
+}
+.year{
+    color: #6c757d;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.category{
+    color: #6c757d;
+}
+.card p{
+    color: #555;
+    line-height: 1.5;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.container .progress-bar{
+    background-color: white;
+    height: 5px;
+    border-radius: 5px;
+}

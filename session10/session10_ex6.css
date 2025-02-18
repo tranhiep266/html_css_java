@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    height: 1000px;
+}
+.container .title{
+    background-image: url("./pic/football.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+.headline{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    bottom: 40px;
+    left: 20px;
+    position: absolute;
+}
+.container .tag{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    border: 1px solid white;
+}
+.author{
+    color: #ffffff;
+    font-size: 14px;
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+}
+.content{
+    color: white;
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+}
+.navigation{
+    margin-top: 20px;
+}
+.nav-button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 4px;
+}
+.nav-button:hover {
+    background-color: black;
+}

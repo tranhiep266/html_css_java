@@ -1,0 +1,33 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #050505;
+}
+.container{
+    background-color: #e5e5e5;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.container h1{
+    font-size: 24px;
+    font-family: Dancing Script;
+    padding: 10px;
+}
+.container a{
+    text-decoration: none;
+}
+.container button{
+    border-radius: 3px;
+    background-color: #8d939e;
+    color: white;
+    padding: 10px;
+}
+.container ul{
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+}
