@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: rgb(50, 50, 50);
+}
+header{
+    background-color: #009be5;
+}
+header .container:nth-of-type(1){
+    display: flex;
+    justify-content: flex-end;
+}
+header .container:nth-of-type(1) a{
+    text-decoration: none;
+}
+header .container:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+}
+header .container:nth-of-type(3) ul{
+    justify-content: flex-start;
+}
+.data-table-container{
+    padding: 10px 20px;
+    background-color: #eaeff1;
+}
+.data-table-container form{
+    background-color: #f5f5f5;
+}
+.data-table-container table{
+    background-color: white;
+}

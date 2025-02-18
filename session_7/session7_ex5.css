@@ -1,74 +1,35 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #f8f8f8;
+.div {
+    width: 20%;
+    margin: auto;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 9px black;
+    border-radius: 5px;
 }
-
-.card {
-    background: white;
-    width: 320px;
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(12, 12, 12, 0.1);
+button {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.w {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+span {
+    color: #FF8C00;
+}
+.td {
+    width: 100%;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: #ED1A35;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     text-align: center;
 }
-
-.header {
-    background: #d32f2f;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 8px 8px 0 0;
-    position: relative;
-}
-
-.hot {
-    background: yellow;
-    color: red;
-    font-size: 12px;
-    padding: 2px 6px;
-    border-radius: 4px;
+img {
     position: absolute;
-    top: -10px;
-    right: -10px;
-}
-
-.info p {
-    font-size: 14px;
-    margin: 5px 0;
-}
-
-.highlight {
-    color: #e67e22;
-}
-
-.note {
-    font-size: 12px;
-    color: #666;
-}
-
-button {
-    width: 90%;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 8px;
-    border: none;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.register {
-    background: #d32f2f;
-    color: white;
-}
-
-.detail {
-    background: white;
-    color: #d32f2f;
-    border: 2px solid #d32f2f;
+    top: 0px;
+    right: 38%;
 }

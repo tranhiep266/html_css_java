@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container:nth-child(1) .child{
+    background-color: pink;
+    margin-bottom: 20px;
+}
+.row{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.row .child{
+    background-color: pink;
+    width: calc(33.33% - 20px);
+
+}
+.blog-container{
+    height: 200px;
+    background-image: url("./assets/pic-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.blog-container .title{
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+}
