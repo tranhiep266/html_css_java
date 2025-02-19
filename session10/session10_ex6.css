@@ -38,20 +38,46 @@ body{
     color: #ffffff;
     font-size: 14px;
     position: absolute;
-    bottom: 80px;
+    bottom: 100px;
     left: 20px;
 }
 .content{
     color: white;
-    bottom: 20px;
+    bottom: 0px;
     left: 20px;
     position: absolute;
 }
 .navigation{
+    display: flex;
     margin-top: 20px;
+    justify-content: flex-end;
+}
+.nav-button-number{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 30px;
 }
 .nav-button{
     background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 4px;
+}
+.van-button-number{
+    background-color: #f4f4f4;
+    color: #3f3f3f;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 30px;
+}
+.van-button{
+    background-color: rgb(187, 187, 187);
     color: #fff;
     border: none;
     padding: 10px 15px;
