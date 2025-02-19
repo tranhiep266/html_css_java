@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.head-color{
+    background-color: #5995db;
+    height: 30px;
+}
+.head{
+    background-color: #b2d6ff;
+    height: 200px;
+    text-align: center;
+    line-height: 100px;
+}
+.content-mobile{
+    display: none;
+}
+.sign-mobile-container{
+    display: none;
+}
+.feature-container{
+    display: flex;
+    height: 300px;
+    text-align: center;
+    line-height: 200px;
+}
+.feature-1{
+    background-color: #f5cf8d;
+    width: 33.33%;
+}
+.feature-2{
+    background-color: #c8c6fa;
+    width: 33.33%;
+}
+.feature-3{
+    background-color: #f09a9d;
+    width: 33.33%;
+}
+.signup{
+    background-color: #d7e9fe;
+    height: 100px;
+}
+.content{
+    background-color: #ebedf0;
+    height: 200px;
+}
+@media screen and (max-width: 1200px){
+    .sign-container, .feature-container{
+        display: none;
+    }
+    .content-mobile{
+        display: block;
+        background-color: #ebedf0;
+        height: 200px;
+        text-align: center;
+    }
+    .sign-mobile{
+        background-color: #d7e9fe;
+        height: 150px;
+        width: 50%;
+        text-align: center;
+    }
+    .feature-mobile-1{
+        background-color: #f5cf8d;
+        height: 150px;
+        width: 50%;
+        text-align: center;
+    }
+    .feature-mobile-2{
+        background-color: #c8c6fa;
+        height: 150px;
+        width: 50%;
+        text-align: center;
+    }
+    .feature-mobile-3{
+        background-color: #f09a9d;
+        height: 150px;
+        width: 50%;
+        text-align: center;
+    }
+    .sign-mobile-container{
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .sign-container, .feature-container{
+        display: none;
+    }
+    .content-mobile{
+        display: block;
+        background-color: #ebedf0;
+        height: 200px;
+        text-align: center;
+    }
+    .sign-mobile{
+        background-color: #d7e9fe;
+        height: 150px;
+        width: 100%;
+        text-align: center;
+    }
+    .feature-mobile-1{
+        background-color: #f5cf8d;
+        height: 150px;
+        width: 100%;
+        text-align: center;
+    }
+    .feature-mobile-2{
+        background-color: #c8c6fa;
+        height: 150px;
+        width: 100%;
+        text-align: center;
+    }
+    .feature-mobile-3{
+        background-color: #f09a9d;
+        height: 150px;
+        width: 100%;
+        text-align: center;
+    }
+    .sign-mobile-container{
+        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+}
