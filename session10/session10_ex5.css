@@ -6,15 +6,15 @@
     font-size: 16px;
     color: rgb(104, 104, 104);
 }
-.blog{
-    margin-top: 50px;
-   margin: auto;
-   background-color :#d0d0d0; 
-   width: 900px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   padding: 50px;
+.blog-container{
+    margin-top: 30px;
+    margin: auto;
+    background-color :#d0d0d0; 
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
 
 }
 img{
@@ -37,12 +37,6 @@ h3{
     display: flex;
     gap: 15px;
     margin-bottom: 10px;
-}
-h6{
-    font-size: 16px;
-    color:#35384e;
-    margin-bottom: 30px;
-    justify-content: flex-start;
 }
 .date .year{
     background-color: #2a4884;
