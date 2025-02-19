@@ -14,14 +14,15 @@
     align-items: center;
     height: 50px;
     font-size: 16px;
-    width: 50px;
+    width: 100px;
+    border-radius: 5px;
 }
-.box:nth-child(8) {
+.box:nth-child(8){
     position: absolute;
     right: 20px;
     bottom: -50px;
 }
-.box:nth-child(7) {
+.box:nth-child(7){
     position: absolute;
     left: 20px;
     bottom: -50px;
