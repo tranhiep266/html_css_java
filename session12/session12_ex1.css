@@ -1,0 +1,20 @@
+.btn-secondary{
+    background-color: #ff6347 !important;
+    border-color: #ff6347 !important;
+    color: white !important;
+}
+.btn-secondary:focus, .btn-secondary:active{
+    box-shadow: 0 0 5px rgb(0, 191, 255) !important; 
+}
+.dropdown-menu{
+    background-color: #ff6347 !important;
+    border: none !important;
+}
+.dropdown-item{
+    color: white !important;
+    font-size: 20px;
+}
+.dropdown-item:hover, .dropdown-item:focus{
+    background-color: #1967d2 !important;
+    color: white !important;
+}
