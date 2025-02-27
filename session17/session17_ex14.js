@@ -1,0 +1,10 @@
+let radius=+prompt("Nhập bán kính: ");
+let height=+prompt("Nhập chiều cao: ");
+let areaAround=2*Math.PI*radius*height;
+let areaAll=areaAround+2*Math.PI*radius*radius;
+let volume=Math.PI*radius*radius*height;
+let peri=2*Math.PI*radius;
+alert("Diện tích xung quanh: "+areaAround);
+alert("Diện tích toàn phần: "+areaAll);
+alert("Thể tích: "+volume);
+alert("Chu vi đáy: "+peri);
