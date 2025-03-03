@@ -8,7 +8,7 @@ if(user==="ADMIN"){
     }else{
         alert("Wrong password");
     }
-}else if(user==="null"){
+}else if(user===null){
     alert("Cancelled");
 }else{
     alert("I Don't know you");
