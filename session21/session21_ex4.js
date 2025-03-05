@@ -1,9 +1,17 @@
-let a=+prompt("Nhap a: ");
-let b=+prompt("Nhap b: ");
-let c=+prompt("Nhap c: ");
 let delta;
 let x,x1,x2;
-if(a==0){
+let a,b,c;
+for(;;){
+    a=+prompt("Nhap a: ");
+    b=+prompt("Nhap b: ");
+    c=+prompt("Nhap c: ");
+    if(!isNaN(a)&&!isNaN(b)&&!isNaN(c)){
+        break;
+    }else{
+        alert("Nhap sai yeu cau nhap lai");
+    }
+}
+if(a===0){
     alert("Khong phai pt bac 2");
 }else if((delta=b*b-4*a*c)<0){
     alert("Phuong trinh vo nghiem");
