@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n = +prompt("Nhap so luong phan tu mang:");
+        if(n<=0){
+            alert("Khong co ki tu so");
+        }else{
+            let characters=[];
+            for(let i=0;i<n;i++){
+                characters[i]=prompt();
+            }
+            let numberCharacters=[];
+            for (let i=0;i<characters.length;i++){
+                if(!isNaN(characters[i])&&characters[i]!==""){
+                    numberCharacters.push(characters[i]);
+                }
+            }
+
+            if(numberCharacters.length===0){
+                alert("Khong co ki tu so");
+            } else {
+                alert(`${numberCharacters.join(" ")}`);
+            }
+        }
+    </script>
+</body>
+</html>

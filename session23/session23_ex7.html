@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numbers=[];
+        let countAddNumber=+prompt();
+        if(countAddNumber<2){
+            alert(`Khong co so nho nhi`);
+        }else{
+            while(numbers.length<countAddNumber){
+                numberAdd=+prompt("Nhap vao 1 so nguyen");
+                if(!numbers.includes(numberAdd)){
+                    numbers.push(numberAdd);
+                }else{
+                    alert("So nay da nhap");
+                }
+            }
+            let max=-Infinity;
+            let secondMax=-Infinity;
+            for (let i=0;i<numbers.length;i++){
+                if(numbers[i]>max){
+                    secondMax=max;
+                    max=numbers[i];
+                }else if(numbers[i]>secondMax&&numbers[i]!==max){
+                    secondMax=numbers[i];
+                }
+            }
+            alert(`So lon nhi: ${secondMax}`);
+        }
+    </script>
+</body>
+</html>

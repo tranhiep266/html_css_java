@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numbers=[];
+        let countAdd=+prompt("So phan tu muon nhap: ");
+        if(countAdd===0){
+            alert(`Mang khong co phan tu`);
+        }else if(countAdd<0){
+            alert(`So luong phan tu khong hop le`);
+        }else{
+            for(let i=0;i<countAdd;i++){
+                numbers[i]=+prompt("Nhap vao 1 so nguyen");
+            }
+            let count=0;
+            for(let i=0;i<numbers.length;i++){
+                if(numbers[i]<0){
+                    count++;
+                }
+            }
+            alert(`Co ${count} so nguyen am`);
+        }
+    </script>
+</body>
+</html>

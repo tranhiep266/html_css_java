@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numbers=[];
+        while(numbers.length<10){
+            numberAdd=+prompt("Nhap vao 1 so nguyen");
+            if(!numbers.includes(numberAdd)){
+                numbers.push(numberAdd);
+            }else{
+                alert("So nay da nhap");
+            }
+        }
+        let max=numbers[0];
+        let posi=0;
+        for (let i=1;i<numbers.length;i++){
+            if(numbers[i]>max) {
+                max=numbers[i];
+                posi=i;
+            }
+        }
+        alert(`So lon nhat: ${max}`);
+        alert(`Vi tri: ${posi}`);
+    </script>
+</body>
+</html>
