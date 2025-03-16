@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let testCase1=[2,1,4,6,18,12,3];
+        let testCase2="abc";
+        function sortEven(arr){
+            if(Array.isArray(arr)){
+                let evenArr=arr.filter(item=>item%2===0);
+                console.log("evenArr",evenArr);
+                for(let i=0;i<evenArr.length-1;i++){
+                    for(let j=0;j<evenArr.length-1-i;j++){
+                        if(evenArr[j]>evenArr[j+1])
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
