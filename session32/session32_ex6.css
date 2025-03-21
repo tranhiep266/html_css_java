@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+.upBtn{
+    color: white;
+    background-color: #26c72e;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 50px;
+    margin: 10px;
+}
+.downBtn{
+    color: white;
+    background-color: rgb(255, 17, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 50px;
+    margin: 10px;
+}

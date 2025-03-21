@@ -16,4 +16,6 @@ employees.forEach((employee, index) => {
     </tr>
   `;
 });
-document.getElementById("employeeTable").getElementsByTagName("tbody")[0].innerHTML = tableRows;
+document
+  .getElementById("employeeTable")
+  .getElementsByTagName("tbody")[0].innerHTML = tableRows;
