@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="session34_ex2.css">
+</head>
+
+<body>
+    <h2>Task Management</h2>
+    <div class="nav" id="nav">
+        <input type="text" id="content" placeholder="Content">
+        <input type="date" id="dueDateInput">
+        <select id="category">
+            <option value="">Choose status</option>
+            <option value="on">Pending</option>
+            <option value="off">Unpending</option>
+        </select>
+        <input type="text" id="Username" placeholder="Username">
+        <button id="Submit" class="Submit" onclick="addTask()">Submit</button>
+    </div>
+    <table id="container">
+        <thead>
+            <tr>
+                <th>Content</th>
+                <th>Due Date</th>
+                <th>Status</th>
+                <th>Assigned To</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="taskTable">
+        </tbody>
+    </table>
+
+    <script src="session34_ex2.js"></script>
+</body>
+
+</html>
